@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+h1.underlined {
+  text-decoration: underline;
+}
+
+h1.left {
+  text-align: left;
+}
+
+h2 {
+  color: green;
+  text-align: left;
+}
+
+h2.center {
+  text-align: center;
+}
+
+h2.underline {
+  text-decoration: underline;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border-style: solid;
+  border-color: red;
+}
+
+button:hover {
+  transform: scale(1.2);
+  transition: transform 0.4s ease;
+  background-color: red;
+}
